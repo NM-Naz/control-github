@@ -45,11 +45,29 @@ h6 {
 #big-img-2 {
     background-image: url(../image/back-img.png);
     width: 100%;
-    min-height: 400px;
+    min-height: 300px;
+    
 }
+
+
 
 #big-img-2 h5 {
     padding-top: 50px;
+    
+    
+}
+#big-img-2 img {
+  
+    padding: 0;
+    width: 300px;
+  
+    
+}
+#hr-2 {
+    
+    width: 30px;
+    background-color: red;
+    height: 1px;
 }
 
 
