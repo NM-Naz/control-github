@@ -42,4 +42,15 @@ h6 {
 }
 
 
+#big-img-2 {
+    background-image: url(../image/back-img.png);
+    width: 100%;
+    min-height: 400px;
+}
+
+#big-img-2 h5 {
+    padding-top: 50px;
+}
+
+
 
