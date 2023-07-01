@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="./"></script>
     <link rel="stylesheet" href="./materialize/css/materialize.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -12,26 +13,29 @@
 </head>
 
 <body>
-    <nav>
-        <div class="nav-wrapper" id="nav">
+
+    <nav class="pink accent-2">
+        <div class="nav-wrapper container" id="nav">
             <a href="#" class="brand-logo" id="logo"><b>MoGo</b></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">SERVICE</a></li>
-                <li><a href="#">WORK</a></li>
-                <li><a href="#">BLOG</a></li>
-                <li><a href="#">CONTACT</a></li>
-                <li><a href="#"><i class="bi bi-cart3"></i></a></li>
+                <li><a href="#" class="yellow-text">ABOUT</a></li>
+                <li><a href="#img-4">SERVICE</a></li>
+                <li><a href="#work-1">WORK</a></li>
+                <li><a href="#blog-1">BLOG</a></li>
+                <li><a href="#footer-1">CONTACT</a></li>
+                <li><a href="#"><i class=" bi bi-cart3"></i></a></li>
                 <li><a href="#"><i class="bi bi-search"></i></a></li>
             </ul>
         </div>
     </nav>
+    <!-- ------------------------------------- -->
 
-
-    <div class="" id="big-img">
+    <div class="" id="head">
+        <img src="./image/bird-bg.png" alt="" id="bird">
         <h3 class="center white-text">Creative Template</h3>
-        <h1 class="center white-text"><b>WELCOME <br>
-                TO MOGO</b></h1>
+        <h1 class="center white-text"><b>WELCOME <br>TO MOGO</b></h1>
+        <hr id="hr-1">
+
         <div class="center">
             <a class="waves-effect waves-black btn-flat white-text " id="btn"><b>LEARN MORE</b></a>
         </div>
@@ -40,112 +44,664 @@
     <div class="container">
         <h5 class="center "><b>What we do</b></h5>
         <h4 class="center"><b>STORY ABOUT US</b></h4>
-        <p class="center grey-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, ametadipisicing
-            elit. Dolores, ametadipisicing elit. Dolores, amet.</p>
+        <hr id="hr-2">
+
+        <p class="center grey-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Dolores, ametadipisicing elit.
+            Dolores, ametadipisicing elit. Dolores, amet.
+        </p>
+    </div>
+    <!-- sec-1 -->
+
+    <div class="container" id="section-1">
+        <div class="row">
+            <div class="col s12 m4"><img src="https://picsum.photos/400/250?random=1"></div>
+            <div class="col s12 m4"><img src="https://picsum.photos/400/250?random=2"></div>
+            <div class="col s12 m4"><img src="https://picsum.photos/400/250?random=3"></div>
+        </div>
     </div>
 
-    <div class="container" id="img-3">
-        <div class="row">
-            <div class="col s4"><img src="https://picsum.photos/400/200?random=1"></div>
-            <div class="col s4"><img src="https://picsum.photos/400/200?random=2"></div>
-            <div class="col s4"><img src="https://picsum.photos/400/200?random=3"></div>
+    <div class="row white-text" id="stat">
+        <tr>
+            <td>
+                <div class="col m1"></div>
+            </td>
+            <td>
+                <div class="col s12 m2 flow-text">
+                    <h1 class=""><b>42</b></h1>
+                    <h6>WEB DESIGN PROJECT</h6>
+                </div>
+            </td>
+            <td>
+                <div class="col s12 m2 flow-text">
+                    <h1><b>123</b></h1>
+                    <h6>HAPPY CLIENT</h6>
+                </div>
+            </td>
+            <td>
+                <div class="col s12 m2 flow-text">
+                    <h1><b>15</b></h1>
+                    <h6>AVARD WINNER</h6>
+                </div>
+            </td>
+            <td>
+                <div class="col s12 m2 flow-text">
+                    <h1><b>99</b></h1>
+                    <h6>CUP OF COFFEE</h6>
+                </div>
+            </td>
+            <td>
+                <div class="col s12 m2 flow-text">
+                    <h1><b>24</b></h1>
+                    <h6>MEMBERS</h6>
+                </div>
+            </td>
+            <td>
+                <div class="col m1"></div>
+            </td>
+        </tr>
+    </div>
+<!-- ---------- -->
+    <div class="container" id="div-6">
+
+        <div>
+            <h5 class="center "><b>What work with</b></h5>
+            <h4 class="center"><b>AMAZING SERVICES</b></h4>
+            <hr id="hr-2">
         </div>
 
         <div class="row">
-            <div class="col s4">
-                <h6>PHOTOGRAPHY</h6>
-                <p class="grey-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+            <div class="col s12 m4 l4 ">
+                <div class="col s1 m2 l2">
+                    <i class=" bi bi-alarm"></i>
+                </div>
+                <div class="col s11 m10 l10">
+                    <h6 class="">PHOTOGRAPHY</h6>
+                    <p class="grey-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
             </div>
-            <div class="col s4">
-                <h6>PHOTOGRAPHY</h6>
-                <p class="grey-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+            <div class="col s12 m4 l4">
+                <div class="col s1 m2 l2">
+                    <i class="bi bi-image"></i>
+                </div>
+                <div class="col s11 m10 l10">
+                    <h6>WEB DESIGN</h6>
+                    <p class="grey-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
             </div>
-            <div class="col s4">
-                <h6>PHOTOGRAPHY</h6>
-                <p class="grey-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+            <div class="col s12 m4 l4">
+                <div class="col s1 m2 l2">
+                    <i class="bi bi-alarm"></i>
+                </div>
+                <div class="col s11 m10 l10">
+                    <h6>CREATIVITY</h6>
+                    <p class="grey-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
             </div>
 
         </div>
-        <hr class="grey-text">
+
+        <hr class="grey">
 
         <div class="row">
-            <div class="col s4">
-                <h6>PHOTOGRAPHY</h6>
-                <p class="grey-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+            <div class="col s12 m4 l4">
+                <div class="col s1 m2 l2">
+                    <i class="bi bi-alarm"></i>
+                </div>
+                <div class="col s11 m10 l10">
+                    <h6>SEO</h6>
+                    <p class="grey-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
             </div>
-            <div class="col s4">
-                <h6>PHOTOGRAPHY</h6>
-                <p class="grey-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+
+            <div class="col s12 m4 l4">
+                <div class="col s1 m2 l2 ">
+                    <i class="bi bi-house-fill"></i>
+                </div>
+                <div class="col s11 m10 l10">
+                    <h6>CSS/HTML</h6>
+                    <p class="grey-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
             </div>
-            <div class="col s4">
-                <h6>PHOTOGRAPHY</h6>
-                <p class="grey-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+            <div class="col s12 m4 l4">
+                <div class="col s1 m2 l2">
+                    <i class="bi bi-cpu"></i>
+                </div>
+                <div class="col s11 m10 l10">
+                    <h6>DIGITAL</h6>
+                    <p class="grey-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
             </div>
+
         </div>
+    </div>
+<!--  -->
+    <div id="big-img-2" class="center">
+        <h5 class="">For all devices</h5>
+        <h4 class=""><b>UNIQUE DESIGN</b></h4>
+        <hr id="hr-2">
+        <img src="./image/ipad.png" alt="" class="" id="img-ipad">
+    </div>
+<!--  -->
 
-
-        <div id="big-img-2" class="center">
-            <h5 class="">For all devices</h5>
-            <h4 class=""><b>UNIQUE DESIGN</b></h4>
-            <img src="./image/ipad.png" alt="" class="">
-        </div>
-
-        <div class="container center">
+    <div class="container" id="img-4">
+        <div class="center">
             <h6>Service</h6>
             <h5><b>WHAT WE DO</b></h5>
             <hr id="hr-2">
-            <p>Ea accusantium ipsum qui harum consequuntur exercitationem, nostrum explicabo debitis provident dolor!
-                Voluptatum laboriosam incidunt vel possimus repellendus perspiciatis dolore sit maxime!</p>
+            <p>
+                Ea accusantium ipsum qui harum consequuntur exercitationem, nostrum explicabo debitis provident dolor!
+                Voluptatum laboriosam incidunt vel possimus repellendus perspiciatis dolore sit maxime!
+                Voluptatum laboriosam incidunt vel possimus repellendus perspiciatis dolore sit maxime!
+            </p>
         </div>
 
+        <div class="row" id="section-6">
+            <div class="col s12 m12 l6">
+                <img src="./image/img-1-m.png" alt="" class="z-depth-1">
+            </div>
+            <div class="col s12 m12 l6" id="collap">
+                <ul class="collapsible">
+
+                    <li class="active">
+                        <div class="collapsible-header">
+                            <i class="bi bi-image teal-text text-accent-2"></i>
+                            PHOTOGRAPHY
+                        </div>
+                        <div class="collapsible-body">
+                            <span>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Incidunt nam aliquid laudantium a non placeat earum consequuntur deleniti voluptate
+                                ratione, magnam tenetur nulla excepturi? Facere ipsam mollitia harum omnis.
+                                Doloribus!
+                            </span>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="collapsible-header">
+                            <i class="bi bi-sliders2-vertical teal-text text-accent-2"></i>
+                            CREATIVITY
+                        </div>
+                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    </li>
+
+                    <li>
+                        <div class="collapsible-header">
+                            <i class="bi bi-hypnotize teal-text text-accent-2"></i>
+                            WEB DESIGN
+                        </div>
+                        <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+<!-- --- -->
+    <div class="row" id="section-3">
         <div class="container">
-            <div class="row">
-                <div class="col s6"><img src="./image/img-1-m.png" alt=""></div>
-                <div class="col s6"><img src="./image/img-2-m.png" alt=""></div>
+
+            <div class="col s4 m3 l2 xl2">
+                <i class="bi bi-chat-right-text-fill"></i>
             </div>
 
+            <div class="col s8 m9 l10 xl10">
+                <p class="grey-text" id="p-2">
+                    "Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Facilis sed adipisci odit nulla praesentium quo labore esse illum,
+                    possimus accusantium vitae! Quos dignissimos amet aperiam error.
+                    Quas harum eius nihil?
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit."
 
+                </p>
 
-            <h6 class="center">Who we are</h6>
-            <h5 class="center"><b>MEET OUR TEAM</b></h5>
-            <hr id="hr-2">
-            <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias beatae blanditiis libero
-                consectetur labore. Vitae veritatis sunt earum cum debitis voluptatibus similique, adipisci quae optio
-                accusantium expedita! Consequuntur, at vero!</p>
-            <div class="row" id="img-a-3">
-                <div class="col s4">
-                    <img src="./image/img-1-a.png" alt="">
-                    <p><b>MATTHEW DIX</b></p>
-                    <p class="grey-text">Grafic Design</p>
-                </div>
-                <div class="col s4">
-                    <img src="./image/imf-2-a.png" alt="">
-                    <p><b>CRISTOFER CAMPBEL</b></p>
-                    <p class="grey-text">Brending/UX design</p>
-                </div>
-                <div class="col s4">
-                    <img src="./image/img-3-a.png" alt="">
-                    <p><b>MICHAEL FERTIG</b></p>
-                    <p class="grey-text">Developer</p>
-                </div>
+                <p class="" id="p-2-jon">
+                    <b>
+                        <span class="red-text" id="sp-1">-</span>
+                        Jon Doe
+                    </b>
+                </p>
             </div>
+
+        </div>
+    </div>
+<!--  -->
+    <div class="container" id="section-2">
+        <h6 class="center">Who we are</h6>
+        <h5 class="center"><b>MEET OUR TEAM</b></h5>
+        <hr id="hr-2">
+
+        <p class="center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias beatae blanditiis libero
+            consectetur labore. Vitae veritatis sunt earum cum debitis voluptatibus similique, adipisci quae optio
+            accusantium expedita! Consequuntur, at vero!
+        </p>
+
+        <div class="row" id="img-a-3">
+
+            <div class="col s4">
+                <img src="./image/img-1-a.png" alt="">
+                <p><b>MATTHEW DIX</b></p>
+                <p class="grey-text">Grafic Design</p>
+            </div>
+
+            <div class="col s4">
+                <img src="./image/imf-2-a.png" alt="">
+                <p><b>CRISTOFER CAMPBEL</b></p>
+                <p class="grey-text">Brending/UX design</p>
+            </div>
+
+            <div class="col s4">
+                <img src="./image/img-3-a.png" alt="">
+                <p><b>MICHAEL FERTIG</b></p>
+                <p class="grey-text">Developer</p>
+            </div>
+
+        </div>
+    </div>
+<!--  -->
+    <div class="row " id="stat-2">
+        <tr class="container">
+            <td>
+                <div class="col s12 m4 l2 flow-text">
+                    <img src="./image/telegr.png" alt="">
+                </div>
+            </td>
+
+            <td>
+                <div class="col s12 m4 l2 flow-text">
+                    <img src="./image/telegr.png" alt="">
+                </div>
+            </td>
+
+            <td>
+                <div class="col s12 m4 l2 flow-text">
+                    <img src="./image/telegr.png" alt="">
+                </div>
+            </td>
+
+            <td>
+                <div class="col s12 m4 l2 flow-text">
+                    <img src="./image/telegr.png" alt="">
+                </div>
+            </td>
+
+            <td>
+                <div class="col s12 m4 l2 flow-text">
+                    <img src="./image/telegr.png" alt="">
+                </div>
+            </td>
+
+            <td>
+                <div class="col s12 m4 l2 flow-text">
+                    <img src="./image/telegr.png" alt="">
+                </div>
+            </td>
+        </tr>
+    </div>
+<!--  -->
+    <div class="container" id="work-1">
+        <h5 class="center "><b>What we do</b></h5>
+        <h4 class="center"><b>SOME OF OUR WORK</b></h4>
+        <hr id="hr-2">
+        <p class="center grey-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Dolores, ametadipisicing elit.
+            Dolores, ametadipisicing elit. Dolores, amet.
+        </p>
+    </div>
+<!--  -->
+    <div class="row" id="section-4">
+
+        <div class="col s6 m3">
+            <div class="col s12 "><img src="https://picsum.photos/700/500?random=5"></div>
+            <div class="col s12 "><img src="https://picsum.photos/700/500?random=6"></div>
         </div>
 
+        <div class="col s6 m3">
+            <div class="col s12"><img src="https://picsum.photos/700/500?random=7"></div>
+            <div class="col s12"><img src="https://picsum.photos/700/500?random=8"></div>
+        </div>
 
+        <div class="col s6 m3">
+            <div class="col s12 "><img src="https://picsum.photos/700/1000?random=9"></div>
+        </div>
 
-
-
-
-
-
+        <div class="col s6 m3">
+            <div class="col s12"><img src="https://picsum.photos/700/500?random=10"></div>
+            <div class="col s12"><img src="https://picsum.photos/700/500?random=11"></div>
+        </div>
 
     </div>
 
+    </div>
 
+    <!--  -->
+    <div class="row" id="section-5">
+        <div class="container">
+            <div class="col s5 m4 l3 xl2 "><img src="./image/people-3.png" alt=""></div>
+            <div class="col s7 m8 l9 xl10" id="p">
+                <p class="grey-text">
+                    "Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Facilis sed adipisci odit nulla praesentium quo labore esse illum,
+                    possimus accusantium vitae! Quos dignissimos amet aperiam error.
+                    Facilis sed adipisci.
+                </p>
 
+                <p><b><span></span>Joshua Earle</b></p>
+            </div>
+        </div>
+    </div>
+    <!-- -------- -->
 
+    <div id="happy-client">
+        <div class="container">
+            <div class="row">
 
+                <div class="happy">
+                    <h5 class="center "><b>Happy Clients</b></h5>
+                    <h4 class="center"><b>WHAT PEOPLE SAY</b></h4>
+                    <hr id="hr-2">
+                </div>
 
+                <div class="col s12 m12 l6 xl6" id="client-1">
+                    <div class="col s3 m3 l4 xl3">
+                        <img src="./image/people-3.png" alt="">
+                    </div>
+                    <div class="col s9 m9 l8 xl9">
+                        <h6><b>MATTHEW DIX</b></h6>
+                        <p class="grey-text text-lighten-3">Graphic Design</p>
+                        <hr id="hr-3">
+                        <p class="grey-text text-lighten-2">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Facere cumque laudantium obcaecati. Harum est voluptatibus fugiat itaque quisquam
+                            dict, adipisci incidunt nobis vel omnis quo iure.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col s12 m12 l6 xl6" id="client-2">
+
+                    <div class="col s3 l4 xl3">
+                        <img src="./image/people-3.png" alt="">
+                    </div>
+
+                    <div class="col s9 l8 xl9">
+                        <h6><b>NICK KARVOUNIS</b></h6>
+                        <p class="grey-text text-lighten-3">Graphic Design</p>
+                        <hr id="hr-3">
+                        <p class="grey-text text-lighten-2">
+                            Sit, amet, dolor sit amet consectetur adipisicing elit.
+                            Facere cumque laudantium obcaecati. Harum est voluptatibus fugiat itaque quisquam
+                            dicta error assumenda architecto dolorem, adipisci incidunt nobis vel omnis quo iure.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="col s12 m12 l6 xl6" id="client-3">
+
+                    <div class="col s3 l4 xl3">
+                        <img src="./image/people-3.png" alt="">
+                    </div>
+
+                    <div class="col s9 l8 xl9">
+                        <h6><b>JAELYNN CASTILLO</b></h6>
+                        <p class="grey-text text-lighten-3">Graphic Design</p>
+                        <hr id="hr-3">
+                        <p class="grey-text text-lighten-2">
+                            Ipsum dolor sit amet consectetur adipisicing elit.
+                            Facere cumque laudantium obcaecati. Harum est voluptatibus fugiat itaque quisquam
+                            dicta error assumenda, vel omnis quo iure.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="col s12 m12 l6 xl6" id="client-4">
+
+                    <div class="col s3 l4 xl3">
+                        <img src="./image/people-3.png" alt="">
+                    </div>
+                    <div class="col s9 l8 xl9">
+                        <h6><b>MIKE PETRUCCI</b></h6>
+                        <p class="grey-text text-lighten-3">Graphic Design</p>
+                        <hr id="hr-3">
+                        <p class="grey-text text-lighten-2">
+                            Dolor sit amet, dolor sit amet consectetur adipisicing elit.
+                            Facere cumque laudantium obcaecati. Harum est voluptatibus fugiat itaque quisquam
+                            dicta error, adipisci incidunt nobis vel omnis quo iure.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ------- -->
+    <div class="container" id="blog-1">
+        <div class="row">
+            <h5 class="center "><b>Our stories</b></h5>
+            <h4 class="center"><b>LATEST BLOG</b></h4>
+            <hr id="hr-2">
+        </div>
+
+        <div class="row">
+            <div class="col s12 m12 l4">
+                <div class="card z-depth-0" id="card-1">
+                    <div class="card-image">
+                        <img src="https://picsum.photos/900/700?random=16">
+                        <span class="card-title" id="badge1"><span class="badge teal white-text teal accent-3"
+                                id="text">15 JUN</span></span>
+                    </div>
+                    <div class="card-content">
+                        <p><b>LOREM IPSUM DOLOR SIT AMET</b></p>
+                        <P class="grey-text">Consectetur adipiscing elit, sed do eismood tempor incididunt ut labore et
+                            dolore magna aloqua.</P>
+                    </div>
+                    <div class="card-action">
+                        <p>
+                            <span class="grey-text">
+                                <i class="bi bi-eye-fill teal-text text-accent-3"></i>
+                                542
+                            </span>
+                            <span id="sp1" class="grey-text">
+                                <i class="bi bi-chat-dots-fill teal-text text-accent-3"></i>
+                                17
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m12 l4">
+                <div class="card z-depth-0" id="card-2">
+
+                    <div class="card-image">
+                        <img src="https://picsum.photos/900/700?random=15">
+                        <span class="card-title" id="badge2">
+                            <span class="badge teal white-text teal accent-3" id="text">
+                                14 JUN
+                            </span>
+                        </span>
+                    </div>
+
+                    <div class="card-content">
+                        <p><b>SED DO EIUSMOOD TEMPOR</b></p>
+                        <P class="grey-text">
+                            Adipiscing elit, sed do eiusmood tempor incidunt ut labore et dolore magna
+                            aloqua.
+                        </P>
+                    </div>
+                    <div class="card-action">
+                        <p>
+                            <span class="grey-text">
+                                <i class="bi bi-eye-fill teal-text text-accent-3"></i>
+                                992
+                            </span>
+                            <span id="sp2" class="grey-text">
+                                <i class="bi bi-chat-dots-fill teal-text text-accent-3"></i>
+                                42
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m12 l4">
+                <div class="card z-depth-0" id="card-3">
+                    <div class="card-image">
+                        <img src="https://picsum.photos/900/700?random=14">
+                        <span class="card-title" id="badge3">
+                            <span class="badge white-text teal accent-3" id="text">
+                                12
+                                JUN
+                            </span>
+                        </span>
+                    </div>
+                    <div class="card-content">
+                        <p><b>INCIDIDUNT UT LABORE ET DOLORE</b></p>
+                        <P class="grey-text">Elit, sed eismood tempor incidunt ut lobore et dolore magna aliqua.</P>
+                    </div>
+                    <div class="card-action">
+                        <p>
+                            <span class="grey-text">
+                                <i class="bi bi-eye-fill teal-text text-accent-3"></i>
+                                1560
+                            </span>
+                            <span id="sp3" class="grey-text">
+                                <i class="bi bi-chat-dots-fill teal-text text-accent-3"></i>
+                                98
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --- -->
+    <a href="#">
+        <div id="maps">
+            <div class="center red-text text-accent-2">
+                <i class="bi bi-geo-alt-fill"></i>
+                <h6 class="red-text"><b>OPEN MAP</b></h6>
+                <hr id="hr-2">
+            </div>
+        </div>
+    </a>
+
+    <!-- footer -->
+    <footer class="page-footer grey lighten-3" id="footer-1">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m12 l12 xl4" id="mogo">
+                    <h5 class="grey-text"><b>MoGo</b></h5>
+                    <p class="grey-text text-lighten-1">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Ducimus iusto sit, accusamus voluptatibus, illo quos eum aut nulla corporis asperiores nam
+                        dolorum delectus possimus esse ea blanditiis modi nostrum suscipit?
+                        Nisi eveniet aliquam maiores perspiciatis, iste odio consequatur aspernatur eos hic ad et quos
+                        quaerat sit, totam doloret cumque.
+                    </p>
+                    <p class="black-text"><b>15k</b> followers</p>
+                    <hr>
+                    <div class="row" id="icons-8">
+                        <div class="col s4 grey-text text-lighten-1">
+                            <p class="">Follow Us:</p>
+                        </div>
+                        <div class="col s1"><i class="bi bi-facebook teal-text text-accent-3"></i></div>
+                        <div class="col s1"><i class="bi bi-twitter teal-text text-accent-3"></i></div>
+                        <div class="col s1"><i class="bi bi-instagram teal-text text-accent-3"></i></div>
+                        <div class="col s1"><i class="bi bi-pinterest teal-text text-accent-3"></i></div>
+                        <div class="col s1"><i class="bi bi-google teal-text text-accent-3"></i></div>
+                        <div class="col s1"><i class="bi bi-youtube teal-text text-accent-3"></i></div>
+                        <div class="col s1"><i class="bi bi-globe teal-text text-accent-3"></i></div>
+                        <div class="col s1"><i class="bi bi-telegram teal-text text-accent-3"></i></div>
+                    </div>
+                    <div class="row" id="">
+                        <input type="email" name="email" id="btn-sub" placeholder=" Your email" class="col s8 white">
+                        <a class="waves-effect waves-light btn col s4 teal accent-3" id="btn-sub">button</a>
+                    </div>
+                </div>
+
+                <div class="col s12 m12 l6 xl4" id="blogs">
+
+                    <h5 class="black-text">Blogs</h5>
+
+                    <div class="row ">
+                        <div class="col s6 m4 l5 xl6">
+                            <img src="https://picsum.photos/120/90?random=17" alt="">
+                        </div>
+                        <div class="col s6 m8 l7 xl6">
+                            <p class="black-text"><b>LOREM IPSUM DOLOR SIT AMET. CONSECTETUR ADIPISCING</b></p>
+                            <p class="grey-text text-lighten-1">Jan 9, 2016</p>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col s6 m4 l5 xl6">
+                            <img src="https://picsum.photos/120/90?random=18" alt="">
+                        </div>
+                        <div class="col s6 m8 l7 xl6">
+                            <p class="black-text"><b>LOREM IPSUM DOLOR SIT AMET. CONSECTETUR ADIPISCING</b></p>
+                            <p class="grey-text text-lighten-1">Jan 9, 2016</p>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col s6 m4 l5 xl6">
+                            <img src="https://picsum.photos/120/90?random=19" alt="">
+                        </div>
+                        <div class="col s6 m8 l7 xl6">
+                            <p class="black-text"><b>LOREM IPSUM DOLOR SIT AMET. CONSECTETUR ADIPISCING</b></p>
+                            <p class="grey-text text-lighten-1">Jan 9, 2016</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m12 l6 xl4" id="instagram">
+                    <h5 class="black-text">Instagram</h5>
+
+                    <div class="row">
+                        <div class="col s4"><img src="https://picsum.photos/190/190?random=1" alt=""></div>
+                        <div class="col s4"><img src="https://picsum.photos/190/190?random=2" alt=""></div>
+                        <div class="col s4"><img src="https://picsum.photos/190/190?random=3" alt=""></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col s4"><img src="https://picsum.photos/190/190?random=4" alt=""></div>
+                        <div class="col s4"><img src="https://picsum.photos/190/190?random=5" alt=""></div>
+                        <div class="col s4"><img src="https://picsum.photos/190/190?random=6" alt=""></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col s4"><img src="https://picsum.photos/190/190?random=7" alt=""></div>
+                        <div class="col s4"><img src="https://picsum.photos/190/190?random=8" alt=""></div>
+                        <div class="col s4"><img src="https://picsum.photos/190/190?random=9" alt=""></div>
+                    </div>
+
+                    <a href="#">
+                        <p class="grey-text text-lighten-1">View more photos</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyright grey lighten-2">
+            <div class="container center black-text">
+                © 2017 MoGo free PSD template by <span class="red-text text-accent-2">Laaqiq</span>
+                <a href="#nav" class="right red-text" id="up-1">Up<i class="bi bi-arrow-up-circle-fill"></i></a>
+
+            </div>
+        </div>
+    </footer>
 
     <!--  -->
     <script src="./js/script.js"></script>

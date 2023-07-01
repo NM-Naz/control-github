@@ -1,86 +1,369 @@
+/* bg-gradient */
+#head {
+    width: 100%;
+    height: 600px;
+    background-image: url(../image/bg-gradient.jpg);
+    margin-bottom: 50px;
+}
 
-* {
+#head h1 {
+    padding: 20px;
+    margin: 0;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+}
+
+#head h3 {
+    margin: 0;
+    padding-top: 160px;
+    justify-content: center;
     font-family: cursive;
 }
-#big-img {
-    width: 100%;
-    height: 500px;
-    background-image: url(../image/back-img.png);
+
+/* Орел b-g */
+#bird {
+    opacity: 20%;
+    position: absolute;
+    width: 450px;
+    top: 15%;
 }
 
-#big-img h1 {
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-}
-#big-img h3 {
-    margin: 0;
-    padding-top: 100px;
-    display: flex;
-    justify-content: center;
-}
-#big-img img {
-    height: 500px;
-}
+/* ---- */
 #btn {
-    border: 1px solid white;
-    
+    margin-top: 30px;
+    border: 2px solid white;
+    width: 150px;
 }
 
-#img-3 img {
-width: 100%;
-padding-top: 50px;
-padding-bottom: 50px;
+#section-1 img {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
+
+#section-2 img {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#img-4 img {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 #logo {
     padding-left: 10px;
-    
 }
+
 h6 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 #big-img-2 {
-    background-color: rgba(128, 128, 128, 0.367);
+
+    background-image: url(../image/picture2.jpg);
+    background-size: cover;
     padding-bottom: 50px;
     margin-bottom: 60px;
     width: 100%;
     min-height: 300px;
-    
 }
-
-
 
 #big-img-2 h5 {
     padding-top: 50px;
-    
-    
 }
+
 #big-img-2 img {
-  
+
+    position: relative;
+    top: 100px;
     padding: 0;
     width: 300px;
-  
-    
 }
+
+#hr-1 {
+    border: solid white;
+    width: 50px;
+    background-color: white;
+}
+
 #hr-2 {
-    
-    width: 30px;
+    border: 1.5px solid red;
+    width: 50px;
     background-color: red;
-    height: 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 #img-a-3 img {
-margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 0;
 }
+
 #img-a-3 p {
-margin: 0;
-padding-top: 8px;
-text-align: center;
+    margin: 0;
+    padding-top: 8px;
+    text-align: center;
+}
+
+#stat {
+    background-color: rgb(145, 232, 203);
+    padding: 20px 0 20px 0;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 
+#stat h1 {
+    padding: 0;
+    margin: 0;
+}
 
+#stat h6 {
+    font-size: 60%;
+}
+
+#div-6 i {
+    padding-right: 5px;
+    display: flex;
+    color: rgb(145, 232, 203);
+    font-size: 140%;
+}
+
+#div-6 h6 {
+    margin: 0;
+}
+
+#div-6 p {
+    margin: 0;
+    padding-top: 5px;
+}
+
+#div-6 div {
+    padding: 10px;
+}
+
+#icon-big {
+    font-size: 700%;
+}
+
+#section-3 {
+    display: flex;
+    background-color: rgba(211, 211, 211, 0.351);
+    padding-top: 30px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+#section-3 i {
+    color: rgb(145, 232, 203);
+    padding-right: 5px;
+    justify-content: center;
+    font-size: 300%;
+    border: 2px solid;
+    padding: 20px 30px;
+    width: 105px;
+    height: 105px;
+    
+  
+    
+}
+
+#section-3 div {
+   padding: 30px;
+    
+}
+
+#p-2 {
+   margin-bottom: 30px;
+}
+#section-3 p {
+    padding-left: 15px;
+    margin-top: -25px;
+    padding-top: 0;
+}
+
+#section-4 img {
+    width: 100%;
+    padding: 0;
+    margin: -3px;
+}
+
+#section-4 div {
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------ */
+#stat-2 {
+    background-color: rgba(211, 211, 211, 0.351);
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 70px 100px 60px 100px;
+    margin: 50px 0;
+}
+
+#stat-2 img {
+    width: 140px;
+    padding: 0px;
+}
+
+#section-5 {
+    display: flex;
+    margin: 40px;
+}
+
+#section-5 p {
+    margin: 0;
+    padding-left: 20px;
+}
+
+#section-5 img {
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    background-color: aqua;
+}
+
+#p {
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+    justify-content: center;
+}
+
+#section-6 img {
+    width: 100%;
+    height: 350px;
+    margin: 0;
+    padding: 0;
+}
+
+#section-6 ul {
+    margin: 0;
+}
+#section-6 i {
+    display: flex;
+}
+
+#collap div {
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+#badge1 span,
+#badge2 span,
+#badge3 span {
+    position: relative;
+    left: -50px;
+    bottom: -10px;
+}
+
+#text {
+    height: 50px;
+    width: 30px;
+}
+
+
+#blogs img {
+    width: 120px;
+}
+
+#blogs p {
+    margin: 0;
+    padding: 0;
+    font-size: 80%;
+}
+
+#blogs h5 {
+    padding-bottom: 20px;
+}
+
+#instagram img {
+    width: 100%;
+}
+
+#instagram h5 {
+    padding-bottom: 20px;
+}
+
+#mogo h5 {
+    padding-bottom: 10px;
+}
+
+#icons-8 div {
+    margin: 0;
+    padding-top: 8px;
+}
+
+#icons-8 p {
+    margin: 0;
+    padding-top: 0px;
+}
+
+#btn-sub {
+    height: 43px;
+}
+
+#sp1,
+#sp2,
+#sp3 {
+    padding-left: 15px;
+}
+
+#card-1 p,
+#card-2 p,
+#card-3 p {
+    margin-bottom: 6px;
+    margin-left: -23px;
+}
+
+#maps {
+    background-image: url(../image/picture2.jpg);
+    height: 200px;
+    background-size: cover;
+    margin-bottom: 0px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#happy-client {
+    background-image: url(../image/picture2.jpg);
+   display: flex;
+    background-size: cover;
+    margin: 50px 0 50px 0;
+}
+#happy-client img {
+   width: 70px;
+   border-radius: 100%;
+}
+#hr-3 {
+width: 60px;
+margin-left: 0;
+border: 1px solid red;
+}
+
+
+#client-1,
+#client-2,
+#client-3,
+#client-4 {
+    padding: 15px;
+  
+}
+h5 {
+    font-family: cursive;
+}
+
+#up-1 {
+  
+} 
+#up-1 i {
+    padding-left: 5px;
+
+} 
